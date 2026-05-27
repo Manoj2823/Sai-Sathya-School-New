@@ -764,6 +764,29 @@ if ($user_query && mysqli_num_rows($user_query) > 0) {
           <span class="action-btn">Manage Videos →</span>
         </a>
 
+        <a href="testimonials.php" class="action-card">
+          <div class="ac-icon">💬</div>
+          <h3>Testimonials</h3>
+          <p>Manage student, parent, and teacher reviews shown on the home page.</p>
+          <span class="action-btn">Manage Testimonials →</span>
+        </a>
+
+        <a href="applications.php" class="action-card">
+          <div class="ac-icon">📋</div>
+          <h3>Applications</h3>
+          <p>View and manage admission inquiries and teacher job applications.</p>
+          <span class="action-btn">View Applications →</span>
+        </a>
+
+        <?php if ($is_admin): ?>
+        <a href="approve-users.php" class="action-card">
+          <div class="ac-icon">👥</div>
+          <h3>User Approvals</h3>
+          <p>Approve, reject, or manage pending admin and user registrations.</p>
+          <span class="action-btn">Manage Users →</span>
+        </a>
+        <?php endif; ?>
+
       </div><!-- /action-grid -->
     </div><!-- /content -->
 

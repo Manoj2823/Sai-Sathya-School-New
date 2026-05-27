@@ -5,8 +5,8 @@ require_once 'db.php';
 // ============================================================
 //  REPLACE YOUR GOOGLE CLIENT ID & SECRET HERE
 // ============================================================
-define('GOOGLE_CLIENT_ID', 'your-id');
-define('GOOGLE_CLIENT_SECRET', 'your-secret');
+define('GOOGLE_CLIENT_ID', '');
+define('GOOGLE_CLIENT_SECRET', '');
 define('GOOGLE_REDIRECT_URI', 'http://localhost/SAI%20SCHOOL/admin/google-callback.php');
 // For live server: define('GOOGLE_REDIRECT_URI', 'https://yourdomain.com/admin/google-callback.php');
 // ============================================================
